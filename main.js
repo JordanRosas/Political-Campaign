@@ -36,8 +36,20 @@ const volTrack = {
     votersRegistration:'https://www.usa.gov/register-to-vote',
 }
 
+/*This function will add a new image to the imageGallery Object*/
 function addToImageGallery(newImage){
     volTrack.imageGallery.familyPhoto2 = newImage;
     console.log(volTrack.imageGallery.familyPhoto2)
 }
-addToImageGallery('https://assets3.thrillist.com/v1/image/2754967/size/tmg-article_tall;jpeg_quality=20.jpg')
+addToImageGallery('https://assets3.thrillist.com/v1/image/2754967/size/tmg-article_tall;jpeg_quality=20.jpg');
+
+/*This function will add a new biography link to the biography section*/
+function changeBiography(newBiography){
+	volTrack.biography = newBiography;
+}
+changeBiography('NEW_URL_HERE');
+
+/*this function will change the congressional district of the candidate*/
+function newDistrict(){
+    volTrack.congressionalDistrict = 'TN 8th district'
+}
