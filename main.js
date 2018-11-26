@@ -1,5 +1,3 @@
-/*Your job is to define the different objects and arrays, their structure, and the corresponding
- properties for each, to represent the following information about Elizabeth's campaign.(NOT A REAL PERSON ALL DUMMY INFO) */
 const volTrack = {
 
     congressionalDistrict:'TN 7th District',
@@ -37,4 +35,10 @@ const volTrack = {
 
     votersRegistration:'https://www.usa.gov/register-to-vote',
 }
+/*Your job is to define the different objects and arrays, their structure, and the corresponding
+ properties for each, to represent the following information about Elizabeth's campaign.(NOT A REAL PERSON ALL DUMMY INFO) */
 
+function addToImageGallery(image){
+    volTrack.imageGallery.casual = image;
+    console.log(volTrack.imageGallery.casual);
+}
