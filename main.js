@@ -1,10 +1,10 @@
 /*Your job is to define the different objects and arrays, their structure, and the corresponding
  properties for each, to represent the following information about Elizabeth's campaign.(NOT A REAL PERSON ALL DUMMY INFO) */
-let volTrack = {
+const volTrack = {
 
     congressionalDistrict:'TN 7th District',
     /*all the following example statements are quotes from the office*/
-    platformStatements: {
+    platformStatements:{
         taxes:'I am Beyonce always',
         jobs:'Oh its on like a prawn who yawns at dawn',
         infrastructure:'I am running away from my responsibilites and it feels good',
@@ -16,7 +16,7 @@ let volTrack = {
 
     upcomingEvents:'none schedueled',
 
-    VolunteerInfo: {
+    VolunteerInfo:{
         name: 'Jordan',
         address:'1234 sesame st',
         phone:'342-555-5551',
