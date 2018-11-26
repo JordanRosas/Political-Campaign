@@ -41,7 +41,7 @@ function addToImageGallery(newImage){
     volTrack.imageGallery.familyPhoto2 = newImage;
     console.log(volTrack.imageGallery.familyPhoto2)
 }
-addToImageGallery('https://assets3.thrillist.com/v1/image/2754967/size/tmg-article_tall;jpeg_quality=20.jpg');
+addToImageGallery('NEW_URL_HERE');
 
 /*This function will add a new biography link to the biography section*/
 function changeBiography(newBiography){
